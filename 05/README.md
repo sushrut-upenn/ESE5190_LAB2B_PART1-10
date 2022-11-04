@@ -1,3 +1,5 @@
-# ESE5190_LAB2B_PART1-10
+# ESE5190_LAB2B_PART 5
 
-Testing
+For this Lab the firefly code from the previous lab is used. For the firefly implementation the Qt Py RP2040 was interfaced with the APDS9960 sensor board using the I2C protocol. In the firefly code the led blinks depending on the light intensity and mimics a firefly.    
+In this lab we had to generate the APDS9960 I2C traffic and display it on the oscilloscope. We can see I2C traffic by connecting the SDA and SCL pins of the sensor board to the oscilloscope. We have used the Agilent technologies MSO7034B oscilloscope. The oscilloscope is interfaced with a logic analyzer which is connected to the SDA and SCL pins. As the logic analyzer is used the mode of the oscilloscope is set to digital. The connections can be seen in the attached images. Select D1 and D0 on the oscilloscope and select SCL to D0 and SDA to D1 of the logic analyzer  and the ground pin to the ground probe of the logic analyzer. The oscilloscope output is shown in the attached images. We can see 4 waveforms. The green and yellow are the ones using a normal probe which appear to have noise. The red and the blue waves are the ones using the logic analyzer and appear to be clear. The oscilloscope has many inbuilt features to store the display images on the USC device or the PC. A usb device was used to save the oscilloscope display information. 
+
