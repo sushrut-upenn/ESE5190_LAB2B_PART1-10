@@ -1,3 +1,3 @@
-### TODO:
+### TODO: PART 2 REPL 
 
-PART 2
+For REPL (Read Evaluate Print Loop) we read and write the Adafruit QtPy’s RP2040 registers from the putty serial console. We first press the boot button and the commands appear on the serial terminal as per our code. First Read mode is enabled and it appears on the serial terminal. The user should then input a valid RP2040 address which should be 32-bit. Then the address is displayed on the putty terminal followed by the value of the address. Then the Write mode is enabled in which the user enters a valid RP2040 32-bit address and then the value of the address is displayed on the putty terminal. Lastly, the user can enter any value to be stored in this address location. This read/write operation is done using the atomic bit-setting aliases and a 32-bit mask. 
