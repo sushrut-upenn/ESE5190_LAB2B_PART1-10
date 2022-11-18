@@ -1,4 +1,5 @@
-### TODO: PROTOBOARD 
+### TODO: PROTOBOARD - Custom circuit board to sequencer
+
 
 
 
