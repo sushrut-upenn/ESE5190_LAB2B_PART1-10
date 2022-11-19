@@ -1,6 +1,6 @@
 ### TODO:  PART 9
 
-In Part 9, we implemented the APDS9960 support on our system in a way such that the neopixel on the QtPy board would glow red, green or blue as per the light falling on it. This is shown in the video below:
+In Part 9, we implemented the APDS9960 support on our system in a way such that the neopixel on the QtPy board would glow red, green or blue as per the light falling on it. The brighness of the neopixel also depends on the light intensity. This is shown in the video below:
 
 
 
